@@ -4,7 +4,6 @@
   caddy,
   cacert,
   tzdata,
-  coreutils,
 }:
 dockerTools.buildLayeredImage {
   name = "caddy";
@@ -15,7 +14,7 @@ dockerTools.buildLayeredImage {
     tzdata
   ];
   extraCommands = ''
-    ${coreutils}/bin/mkdir -m 1777 tmp
+    mkdir -m 1777 tmp
   '';
   config = {
     entrypoint = [ (lib.getExe caddy) ];

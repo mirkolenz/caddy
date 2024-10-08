@@ -3,6 +3,7 @@ module github.com/mirkolenz/caddy
 go 1.22.7
 
 require (
+	github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e
 	github.com/caddy-dns/inwx v0.3.1
 	github.com/caddyserver/caddy/v2 v2.8.4
 )
@@ -67,6 +68,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.3 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
+	github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab // indirect
 	github.com/libdns/inwx v0.2.1 // indirect
 	github.com/libdns/libdns v0.2.2 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect

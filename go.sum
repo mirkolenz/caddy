@@ -76,6 +76,8 @@ github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6r
 github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
 github.com/boombuler/barcode v1.0.1 h1:NDBbPmhS+EqABEs5Kg3n/5ZNjy73Pz7SIV+KCeqyXcs=
 github.com/boombuler/barcode v1.0.1/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
+github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e h1:POEJXMmSOMJP/73oM/riQTDMg0yjQYlA7nVjyt1+5p8=
+github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e/go.mod h1:Osdy4yUAPsR2u4cN1+n/AQ1kleviUcOBZlNB0Dt28gI=
 github.com/caddy-dns/inwx v0.3.1 h1:4UGY39AStcF79LAVQVvLei3Hpu+GHlfpQw84p7F0fMs=
 github.com/caddy-dns/inwx v0.3.1/go.mod h1:IJFCiTQ5Kht6qqvEmI4jq26ZP73baMRo+cSCWeghF6I=
 github.com/caddyserver/caddy/v2 v2.8.4 h1:q3pe0wpBj1OcHFZ3n/1nl4V4bxBrYoSoab7rL9BMYNk=
@@ -289,6 +291,8 @@ github.com/lib/pq v1.2.0/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
 github.com/lib/pq v1.10.2/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
 github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
 github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
+github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab h1:tX5H3Liz1eTJBbQK2/zs3tmWf79jCKplqQ38AIi/qW4=
+github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab/go.mod h1:9VK91idpOjg6v7/WbjkEW49bSCxj00ALesIFDhJ8PBU=
 github.com/libdns/inwx v0.2.1 h1:UZ0EioWiNiz7csE0L8ACLZ7S7Bkt1gsrpYQJSL+GcQc=
 github.com/libdns/inwx v0.2.1/go.mod h1:FJKf4/Df6rNTEsZAFpCtXtgC8l2mFVSBIG8VyXRdJGs=
 github.com/libdns/libdns v0.2.2 h1:O6ws7bAfRPaBsgAYt8MDe2HcNBGC29hkZ9MX2eUSX3s=

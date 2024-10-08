@@ -6,7 +6,7 @@
 caddy.overrideAttrs (prev: {
   version = "0.1.0";
   src = ./.;
-  vendorHash = "sha256-kcO64swHlak3Tarwic/eKdXVDy58NTilTXfBCm0Ru38=";
+  vendorHash = "sha256-S5N+kcUmcvxGLzZzxYXPy3yX40ljcb4nWQjD2yfS5Co=";
   subPackages = [ ];
   ldflags = [
     "-s"

@@ -19,6 +19,7 @@ dockerTools.buildLayeredImage {
   config = {
     entrypoint = [ (lib.getExe caddy) ];
     cmd = [
+      "run"
       "--config"
       "/etc/caddy/Caddyfile"
       "--adapter"

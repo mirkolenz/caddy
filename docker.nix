@@ -1,3 +1,4 @@
+# https://github.com/caddyserver/caddy-docker/blob/master/Dockerfile.tmpl
 {
   lib,
   dockerTools,
@@ -17,13 +18,26 @@ dockerTools.buildLayeredImage {
     mkdir -m 1777 tmp
   '';
   config = {
-    entrypoint = [ (lib.getExe caddy) ];
-    cmd = [
+    Entrypoint = [ (lib.getExe caddy) ];
+    Cmd = [
       "run"
       "--config"
       "/etc/caddy/Caddyfile"
       "--adapter"
       "caddyfile"
     ];
+    ExposedPorts = {
+      "80/tcp" = { };
+      "443/tcp" = { };
+      "443/udp" = { };
+      "2019/tdp" = { };
+    };
+    # https://caddyserver.com/docs/conventions#file-locations
+    Env = [
+      "XDG_CONFIG_HOME=/config"
+      "XDG_DATA_HOME=/data"
+      "HOME=/root"
+    ];
+    WorkingDir = "/srv";
   };
 }

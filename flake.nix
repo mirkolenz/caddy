@@ -42,6 +42,7 @@
           };
           checks = {
             inherit (config.packages) default;
+            docker = config.packages.docker.passthru.stream;
           };
           packages = {
             default = pkgs.callPackage ./. { };

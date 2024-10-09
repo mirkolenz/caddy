@@ -30,7 +30,7 @@ dockerTools.buildLayeredImage {
       "80/tcp" = { };
       "443/tcp" = { };
       "443/udp" = { };
-      "2019/tdp" = { };
+      "2019/tcp" = { };
     };
     # https://caddyserver.com/docs/conventions#file-locations
     Env = [
